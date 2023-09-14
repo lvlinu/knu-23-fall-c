@@ -6,7 +6,7 @@ int main(void)
 	scanf_s("%d", &jumsu);
 
 	if (jumsu > 100 || jumsu < 0) {
-		printf("잘못입력");
+		printf("잘못 입력");
 		return 0;
 	}
 	
