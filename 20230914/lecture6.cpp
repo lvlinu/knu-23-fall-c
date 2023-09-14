@@ -8,9 +8,9 @@ int main(void)
 	scanf_s("%d", &a);
 
 	if (a > 0)
-		printf("양수");
+		printf("양의 정수");
 	else if (a < 0)
-		printf("음수");
+		printf("음의 정수");
 	else 
 		printf("0입니다.");
 
